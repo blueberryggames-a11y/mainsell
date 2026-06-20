@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coming Soon</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #0f0f0f;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
 
+    .container {
+      max-width: 600px;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #bbbbbb;
+    }
+
+    .tag {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .dot {
+      animation: blink 1.2s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Coming Soon<span class="dot">...</span></h1>
+    <p>This website is currently under construction.</p>
+    <p>Check back soon for updates.</p>
+
+    <div class="tag">
+      © 2026 straight2u.pro
+    </div>
+  </div>
+</body>
+</html>
